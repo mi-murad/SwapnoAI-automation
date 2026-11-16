@@ -1,0 +1,39 @@
+.env\n.env.*\n!.env.example\n__pycache__/\n.pytest_cache/\n.venv/\nnode_modules/\n.next/\n
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Next.js
+.next/
+**/.next/
+out/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Local backup files
+*.backup

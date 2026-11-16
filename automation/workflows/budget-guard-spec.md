@@ -1,0 +1,2 @@
+# Budget guard workflow
+Run every 2 hours and after spend imports. Reconcile portfolio spend across connected accounts. Compare with daily/monthly hard limits. If breached, call backend emergency-pause endpoint for eligible campaigns, log action and notify owner. Never increase caps. If reporting is stale or an account fetch fails, alert owner and do not increase budgets. Platform reporting may be delayed; retain a safety buffer.
